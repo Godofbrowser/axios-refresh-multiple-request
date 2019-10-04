@@ -1,5 +1,7 @@
 # Axios refresh multiple parallel requests
 
+This project was created due to comments i received from this [gist](https://gist.github.com/Godofbrowser/bf118322301af3fc334437c683887c5f) 
+
 ## Installation
  
 ### Clone the repository
