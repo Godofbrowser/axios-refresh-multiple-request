@@ -1,7 +1,7 @@
 const validToken = '123abc'
 
 module.exports = (req, res, next) => {
-    const token = req.headers['Authorization'].split(' ').pop()
+    const token = req.headers['authorization'].split(' ').pop()
     console.log(token)
 
     if(req.path === '/refresh') {
