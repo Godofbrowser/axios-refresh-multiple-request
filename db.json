@@ -6,7 +6,7 @@
     "likes": [
         {"id": 1, "userId": 2, "content": "air"},
         {"id": 1, "userId": 2, "content": "water"},
-        {"id": 1, "userId": 2, "content": "sand"},
+        {"id": 1, "userId": 2, "content": "fire"},
         {"id": 2, "userId": 1, "content": "food"},
         {"id": 2, "userId": 1, "content": "water"},
         {"id": 2, "userId": 1, "content": "air"}
