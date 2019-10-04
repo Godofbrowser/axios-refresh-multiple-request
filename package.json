@@ -1,0 +1,33 @@
+{
+  "name": "axios-multi-auth-interception-demo",
+  "version": "0.0.1",
+  "description": "A simple app to demostrate axios multiple request authentication with refresh token",
+  "main": "src/script.js",
+  "scripts": {
+    "dev": "parcel index.html -p 3000 --open",
+    "serve": "json-server -p 3001 --watch db.json -r routes.json -m auth.middleware.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "axios",
+    "token",
+    "interceptors"
+  ],
+  "author": "godofbrowser",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "path-to-regexp": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "json-server": "^0.15.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/proposal-class-properties"
+    ]
+  }
+}

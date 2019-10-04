@@ -1,0 +1,18 @@
+{
+    "users": [
+        {"id": 1, "name": "John"},
+        {"id": 2, "name": "Avatar"}
+    ],
+    "likes": [
+        {"id": 1, "userId": 2, "content": "air"},
+        {"id": 1, "userId": 2, "content": "water"},
+        {"id": 1, "userId": 2, "content": "sand"},
+        {"id": 2, "userId": 1, "content": "food"},
+        {"id": 2, "userId": 1, "content": "water"},
+        {"id": 2, "userId": 1, "content": "air"}
+    ],
+    "refresh": {
+        "token": "123abc",
+        "refreshToken": "refresh123xyz"
+    }
+}
